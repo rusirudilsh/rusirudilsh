@@ -14,7 +14,6 @@ Currently exploring and building around:
 - 🧠 Scalable backend systems with **.NET**, **NestJS**, **SQL Server** and **PostgreSQL**
 - 🏗️ Clean architecture, system design, event-driven workflows and API-first development
 - 📊 Data processing, automation and reporting systems
-- 🎮 Creative developer experiences and interactive web interfaces
 
 ---
 
