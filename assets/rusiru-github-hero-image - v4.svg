@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="920" height="400" viewBox="0 0 920 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rusiru Dilshan - Software Engineer</title>
+  <desc id="desc">Animated GitHub profile hero banner.</desc>
+
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="0.5" y="0.5" width="919" height="399" rx="20"/>
+    </clipPath>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+
+    <radialGradient id="greenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d97a" stop-opacity="0.07"/>
+      <stop offset="65%" stop-color="#22d97a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.05"/>
+      <stop offset="65%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="shadowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="dividerGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="919" height="399" rx="20" fill="#111827" stroke="#1e293b"/>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="920" height="400" fill="#111827"/>
+    <circle cx="840" cy="-80" r="180" fill="url(#greenGlow)">
+      <animate attributeName="r" values="150;190;150" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="390" cy="420" r="150" fill="url(#cyanGlow)">
+      <animate attributeName="r" values="130;170;130" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <rect width="920" height="400" fill="url(#dotGrid)" opacity="1"/>
+
+    <text x="777" y="28" fill="#64748b" font-family="monospace" font-size="9" letter-spacing="1" opacity="0" transform="translate(0 -14)">
+      v<tspan fill="#22d97a">7.0</tspan>.0-stable
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -14;0 0" dur="0.6s" begin="1.2s" fill="freeze"/>
+    </text>
+
+
+    <!-- Character copied from the supplied HTML and recreated as SVG-only animation -->
+    <g id="character" transform="translate(30 59)" filter="url(#softShadow)">
+      <animateTransform attributeName="transform" type="translate" values="30 56;30 59;30 56" dur="2.8s" repeatCount="indefinite"/>
+
+      <!-- SHOES -->
+      <ellipse cx="76" cy="278" rx="26" ry="8" fill="#7e8b94"/>
+      <ellipse cx="134" cy="278" rx="26" ry="8" fill="#7e8b94"/>
+      <rect x="52" y="265" width="46" height="18" rx="9" fill="#535a5e"/>
+      <rect x="112" y="265" width="46" height="18" rx="9" fill="#535a5e"/>
+      <line x1="62" y1="269" x2="86" y2="269" stroke="#2a3545" stroke-width="1.5"/>
+      <line x1="122" y1="269" x2="146" y2="269" stroke="#2a3545" stroke-width="1.5"/>
+
+      <!-- JOGGERS -->
+      <path d="M 68 195 Q 65 232 60 265 L 98 265 Q 96 232 94 195 Z" fill="#5a6642"/>
+      <path d="M 116 195 Q 116 232 114 265 L 152 265 Q 147 232 144 195 Z" fill="#5a6642"/>
+      <rect x="57" y="253" width="43" height="14" rx="6" fill="#4a5535"/>
+      <rect x="113" y="253" width="43" height="14" rx="6" fill="#4a5535"/>
+      <line x1="79" y1="206" x2="77" y2="253" stroke="#3a4228" stroke-width="1.2" opacity="0.7"/>
+      <line x1="130" y1="206" x2="132" y2="253" stroke="#3a4228" stroke-width="1.2" opacity="0.7"/>
+
+      <!-- HOODIE BODY -->
+      <path d="M 65 120 Q 58 126 57 148 L 57 197 Q 57 202 67 202 L 143 202 Q 153 202 153 197 L 153 148 Q 152 126 145 120 Z" fill="#53c988"/>
+      <line x1="105" y1="128" x2="101" y2="150" stroke="#3a6058" stroke-width="2" stroke-linecap="round"/>
+      <line x1="115" y1="128" x2="119" y2="150" stroke="#3a6058" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="101" cy="152" r="2.8" fill="#2e4e46"/>
+      <circle cx="119" cy="152" r="2.8" fill="#2e4e46"/>
+      <line x1="105" y1="130" x2="105" y2="200" stroke="#3a6a5e" stroke-width="1.5" opacity="0.8"/>
+      <path d="M 80 172 Q 80 198 86 202 L 124 202 Q 130 198 130 172 Q 117 167 105 167 Q 93 167 80 172 Z" fill="#3d6b5f"/>
+      <line x1="105" y1="167" x2="105" y2="202" stroke="#2e5048" stroke-width="1.2" opacity="0.6"/>
+      <ellipse cx="105" cy="122" rx="20" ry="9" fill="#3a6058"/>
+      <ellipse cx="105" cy="120" rx="13" ry="6" fill="#6a9a8a"/>
+
+            <!-- ARMS -->
+      
+      <!-- Left arm relaxed down -->
+      <path d="M 57 130
+               Q 46 134 42 160
+               Q 40 178 48 191
+               Q 55 199 65 193
+               L 65 148
+               Z"
+            fill="#4a7c6f"/>
+      
+      <!-- Left hand relaxed -->
+      <ellipse cx="52" cy="196" rx="4" ry="12" fill="#c68642"/>
+      <ellipse cx="39" cy="191" rx="4.5" ry="" fill="#b8722e"/>
+      
+      <!-- Right arm pointing toward the text -->
+      <path d="M 145 132
+               Q 158 132 170 142
+               Q 181 151 188 160
+               Q 191 165 187 170
+               L 178 173
+               Q 177 177 167 167
+               Q 150 157 145 149
+               Q 143 140 145 132
+               Z"
+            fill="#4a7c6f"/>
+      
+      <!-- Right hand / palm -->
+      <ellipse cx="188" cy="166" rx="9" ry="8" fill="#c68642"/>
+      
+      <!-- Pointing finger -->
+      <rect x="188" y="162" width="16" height="6" rx="3" fill="#c68642"/>
+      
+      <!-- Fingertip -->
+      <ellipse cx="204" cy="165" rx="3" ry="3" fill="#c68642"/>
+      
+      <!-- Thumb detail -->
+      <ellipse cx="183" cy="171" rx="5" ry="4" fill="#b8722e"/>
+
+      <!-- NECK/HEAD -->
+      <rect x="97" y="108" width="16" height="20" rx="6" fill="#c68642"/>
+      <ellipse cx="64" cy="86" rx="8" ry="10" fill="#c68642"/>
+      <ellipse cx="65" cy="86" rx="4" ry="7" fill="#b8722e"/>
+      <ellipse cx="146" cy="86" rx="8" ry="10" fill="#c68642"/>
+      <ellipse cx="145" cy="86" rx="4" ry="7" fill="#b8722e"/>
+      <ellipse cx="105" cy="82" rx="38" ry="48" fill="#c68642"/>
+      <path d="M 70 95 Q 68 115 80 128 Q 92 138 105 140 Q 118 138 130 128 Q 142 115 140 95 Q 130 105 105 107 Q 80 105 70 95 Z" fill="#c68642"/>
+
+      <!-- HAIR -->
+      <ellipse cx="105" cy="48" rx="39" ry="26" fill="#050505"/>
+      <path d="M 68 55 Q 74 28 105 30 Q 136 28 142 55 Q 128 42 105 44 Q 82 42 68 55 Z" fill="#050505"/>
+      <path d="M 78 34 Q 96 26 118 30 Q 108 24 96 26 Z" fill="#2d1a05" opacity="0.7"/>
+      <rect x="68" y="52" width="74" height="18" rx="7" fill="#c68642"/>
+      <path d="M 68 55 Q 66 70 68 80 Q 69 66 68 55 Z" fill="#050505"/>
+      <path d="M 142 55 Q 144 70 142 80 Q 141 66 142 55 Z" fill="#050505"/>
+      <ellipse cx="105" cy="44" rx="38" ry="20" fill="#050505"/>
+
+      <!-- FACE -->
+      <path d="M 82 67 Q 90 62 97 66" stroke="#1a0f00" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 113 66 Q 120 62 128 67" stroke="#1a0f00" stroke-width="3.5" stroke-linecap="round"/>
+      <ellipse cx="90" cy="79" rx="11" ry="10" fill="white"/>
+      <ellipse cx="120" cy="79" rx="11" ry="10" fill="white"/>
+
+      <!-- ANIMATED EYES -->
+      <circle cx="90" cy="79" r="7" fill="#3d2507">
+        <animate attributeName="cx" values="90;90;86;86;90;90;94;94;90;90;92;92;90;90" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="79;79;79;79;79;79;79;79;79;79;82;82;79;79" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="90" cy="79" r="4" fill="#1a0f00">
+        <animate attributeName="cx" values="90;90;86;86;90;90;94;94;90;90;92;92;90;90" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="79;79;79;79;79;79;79;79;79;79;82;82;79;79" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="93" cy="76" r="2" fill="white" opacity="0.9">
+        <animate attributeName="cx" values="93;93;89;89;93;93;97;97;93;93;95;95;93;93" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="76;76;76;76;76;76;76;76;76;76;79;79;76;76" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="120" cy="79" r="7" fill="#3d2507">
+        <animate attributeName="cx" values="120;120;116;116;120;120;124;124;120;120;122;122;120;120" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="79;79;79;79;79;79;79;79;79;79;82;82;79;79" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="120" cy="79" r="4" fill="#1a0f00">
+        <animate attributeName="cx" values="120;120;116;116;120;120;124;124;120;120;122;122;120;120" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="79;79;79;79;79;79;79;79;79;79;82;82;79;79" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="123" cy="76" r="2" fill="white" opacity="0.9">
+        <animate attributeName="cx" values="123;123;119;119;123;123;127;127;123;123;125;125;123;123" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="76;76;76;76;76;76;76;76;76;76;79;79;76;76" keyTimes="0;0.16;0.19;0.27;0.30;0.42;0.45;0.52;0.55;0.62;0.65;0.71;0.75;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+
+      <ellipse cx="90" cy="70" rx="11.5" ry="0" fill="#c68642">
+        <animate attributeName="ry" values="0;0;11;0;0;0;11;0;0;11;0;0" keyTimes="0;0.39;0.405;0.42;0.78;0.80;0.815;0.83;0.845;0.86;0.875;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="70;70;78;70;70;70;78;70;70;78;70;70" keyTimes="0;0.39;0.405;0.42;0.78;0.80;0.815;0.83;0.845;0.86;0.875;1" dur="10s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="120" cy="70" rx="11.5" ry="0" fill="#c68642">
+        <animate attributeName="ry" values="0;0;11;0;0;0;11;0;0;11;0;0" keyTimes="0;0.39;0.405;0.42;0.78;0.80;0.815;0.83;0.845;0.86;0.875;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="70;70;78;70;70;70;78;70;70;78;70;70" keyTimes="0;0.39;0.405;0.42;0.78;0.80;0.815;0.83;0.845;0.86;0.875;1" dur="10s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <path d="M 80 72 Q 90 68 100 72" stroke="#1a0f00" stroke-width="1.5" opacity="0.4"/>
+      <path d="M 110 72 Q 120 68 130 72" stroke="#1a0f00" stroke-width="1.5" opacity="0.4"/>
+      <path d="M 102 88 Q 100 96 104 100 Q 108 102 112 100 Q 116 96 108 88" stroke="#a0672e" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M 94 112 Q 105 121 116 112" stroke="#7a3e10" stroke-width="2.5" stroke-linecap="round"/>
+      <ellipse cx="76" cy="100" rx="11" ry="7" fill="#e07050" opacity="0.22"/>
+      <ellipse cx="134" cy="100" rx="11" ry="7" fill="#e07050" opacity="0.22"/>
+      <circle cx="99" cy="114" r="1.2" fill="#2d1a05" opacity="0.3"/>
+      <circle cx="111" cy="114" r="1.2" fill="#2d1a05" opacity="0.3"/>
+      <circle cx="105" cy="118" r="1.2" fill="#2d1a05" opacity="0.3"/>
+      <circle cx="103" cy="111" r="1" fill="#2d1a05" opacity="0.25"/>
+      <circle cx="107" cy="111" r="1" fill="#2d1a05" opacity="0.25"/>
+    </g>
+
+    <!-- TEXT CONTENT -->
+    <g id="content" transform="translate(290 0)">
+      <g id="nameBlock" opacity="0" transform="translate(0 -18)">
+        <text x="0" y="78" fill="#e2e8f0" font-family="Sora, Inter, Arial, sans-serif" font-size="37" font-weight="800" letter-spacing="-0.5">
+          👋 Hello! I'm
+        </text>
+        <text x="0" y="112" fill="#22d97a" font-family="Sora, Inter, Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">
+          RUSIRU DILSHAN 
+        </text>
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="0 -18;0 0" dur="0.6s" begin="0.2s" fill="freeze"/>
+      </g>
+
+
+     <!-- Role typewriter animation: GitHub-safe version -->
+      <g id="typewriter" font-family="DM Mono, Consolas, monospace" font-size="20" fill="#38bdf8" opacity="0" transform="translate(0 -14)" font-weight="600">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="0 -14;0 0" dur="0.7s" begin="0.4s" fill="freeze"/>
+      
+        <!-- Role 1 -->
+        <g opacity="1" transform="translate(0 132)">
+          <animate attributeName="opacity"
+                   values="1;1;0;0"
+                   keyTimes="0;0.249;0.25;1"
+                   dur="16s"
+                   repeatCount="indefinite"/>
+      
+          <defs>
+            <clipPath id="roleClip1">
+              <rect x="0" y="0" width="0" height="28">
+                <animate attributeName="width"
+                         values="0;190;190;0;0"
+                         keyTimes="0;0.08;0.20;0.249;1"
+                         dur="16s"
+                         repeatCount="indefinite"/>
+              </rect>
+            </clipPath>
+          </defs>
+      
+          <text x="0" y="19" clip-path="url(#roleClip1)">Software Engineer</text>
+      
+          <rect y="4" width="2" height="16" fill="#38bdf8">
+            <animate attributeName="x"
+                     values="0;190;190;0;0"
+                     keyTimes="0;0.08;0.20;0.249;1"
+                     dur="16s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      
+        <!-- Role 2 -->
+        <g opacity="0" transform="translate(0 132)">
+          <animate attributeName="opacity"
+                   values="0;0;1;1;0;0"
+                   keyTimes="0;0.25;0.251;0.499;0.50;1"
+                   dur="16s"
+                   repeatCount="indefinite"/>
+      
+          <defs>
+            <clipPath id="roleClip2">
+              <rect x="0" y="0" width="0" height="28">
+                <animate attributeName="width"
+                         values="0;0;335;335;0;0"
+                         keyTimes="0;0.25;0.33;0.45;0.499;1"
+                         dur="16s"
+                         repeatCount="indefinite"/>
+              </rect>
+            </clipPath>
+          </defs>
+      
+          <text x="0" y="19" clip-path="url(#roleClip2)">System / API Design Enthusiast</text>
+      
+          <rect y="4" width="2" height="16" fill="#38bdf8">
+            <animate attributeName="x"
+                     values="0;0;335;335;0;0"
+                     keyTimes="0;0.25;0.33;0.45;0.499;1"
+                     dur="16s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      
+        <!-- Role 3 -->
+        <g opacity="0" transform="translate(0 132)">
+          <animate attributeName="opacity"
+                   values="0;0;1;1;0;0"
+                   keyTimes="0;0.50;0.501;0.749;0.75;1"
+                   dur="16s"
+                   repeatCount="indefinite"/>
+      
+          <defs>
+            <clipPath id="roleClip3">
+              <rect x="0" y="0" width="0" height="28">
+                <animate attributeName="width"
+                         values="0;0;0;280;280;0;0"
+                         keyTimes="0;0.50;0.501;0.58;0.70;0.749;1"
+                         dur="16s"
+                         repeatCount="indefinite"/>
+              </rect>
+            </clipPath>
+          </defs>
+      
+          <text x="0" y="19" clip-path="url(#roleClip3)">Cyber Security Enthusiast</text>
+      
+          <rect y="4" width="2" height="16" fill="#38bdf8">
+            <animate attributeName="x"
+                     values="0;0;0;280;280;0;0"
+                     keyTimes="0;0.50;0.501;0.58;0.70;0.749;1"
+                     dur="16s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      
+        <!-- Role 4 -->
+        <g opacity="0" transform="translate(0 132)">
+          <animate attributeName="opacity"
+                   values="0;0;1;1;0"
+                   keyTimes="0;0.75;0.751;0.999;1"
+                   dur="16s"
+                   repeatCount="indefinite"/>
+      
+          <defs>
+            <clipPath id="roleClip4">
+              <rect x="0" y="0" width="0" height="28">
+                <animate attributeName="width"
+                         values="0;0;0;313;313;0"
+                         keyTimes="0;0.75;0.751;0.84;0.96;1"
+                         dur="16s"
+                         repeatCount="indefinite"/>
+              </rect>
+            </clipPath>
+          </defs>
+      
+          <text x="0" y="19" clip-path="url(#roleClip4)">while(learning) { level++; }</text>
+      
+          <rect y="4" width="2" height="16" fill="#38bdf8">
+            <animate attributeName="x"
+                     values="0;0;0;313;313;0"
+                     keyTimes="0;0.75;0.751;0.84;0.96;1"
+                     dur="16s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </g>
+
+      <rect x="0" y="168" width="557" height="4" fill="url(#dividerGradient)" opacity="0" transform="translate(0 -10)">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="0 -10;0 0" dur="0.6s" begin="0.6s" fill="freeze"/>
+      </rect>
+
+      <g id="buildLine" opacity="0" transform="translate(0 -14)">
+        <rect x="0" y="192" width="557" height="66" rx="10" fill="#22d97a" opacity="0.07" stroke="#22d97a" stroke-opacity="0.18"/>
+        <text x="14" y="220" fill="#e2e8f0" font-family="DM Mono, Consolas, monospace" font-size="16" font-weight="700">
+          Shipping scalable, reliable  &amp; secure business solutions.
+        </text>
+        <text x="14" y="241" fill="#22d97a" font-family="DM Mono, Consolas, monospace" font-size="15" font-weight="700">
+          Let's build 🚀
+        </text>
+        <animateTransform attributeName="transform" type="translate" values="0 -14;0 0" dur="0.6s" begin="0.8s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+      </g>
+
+      <g id="stats" transform="translate(0 295)" font-family="DM Mono, Consolas, monospace" font-weight="800" opacity="0">
+        <animateTransform attributeName="transform" type="translate" values="0 297;0 325" dur="0.6s" begin="1s" fill="freeze"/>
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1s" fill="freeze"/>
+
+        <g>
+          <text x="0" y="0" fill="#e2e8f0" font-size="24.7">7+</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.5" font-weight="600" letter-spacing="1">YRS EXP</text>
+        </g>
+        <rect x="47" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(61 0)">
+          <text x="0" y="0" fill="#e2e8f0" font-size="24.7">C#</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.5" font-weight="600" letter-spacing="1">PRIMARY</text>
+        </g>
+        <rect x="111" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(124 0)">
+          <text x="0" y="0" fill="#8d56f5" font-size="24.7">.NET</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.7" font-weight="600" letter-spacing="1">STACK</text>
+        </g>
+        <rect x="193" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(207 0)">
+          <text x="0" y="0" fill="#42b883" font-size="24.7">Vue</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.7" font-weight="600" letter-spacing="1">FRONTEND</text>
+        </g>
+        <rect x="265" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(280 0)">
+          <text x="0" y="0" fill="#dd0031" font-size="24.7">Angular</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.7" font-weight="600" letter-spacing="1">FRONTEND</text>
+        </g>
+        <rect x="386" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(400 0)">
+          <text x="0" y="0" fill="#0078d4" font-size="24.7">Azure</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.7" font-weight="600" letter-spacing="1">CLOUD</text>
+        </g>
+        <rect x="480" y="-20" width="3" height="27" fill="#1e293b"/>
+
+        <g transform="translate(493 0)">
+          <text x="0" y="0" fill="#22d97a" font-size="27.7">▲</text>
+          <text x="0" y="15" fill="#e2e8f0" font-size="8.7" font-weight="600" letter-spacing="1">GROWING</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
