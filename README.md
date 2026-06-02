@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/rusiru-github-hero-image - v3.svg" alt="Rusiru Dilshan - Software Engineer" width="100%" />
+  <img src="./assets/rusiru-github-hero-image - v5.svg" alt="Rusiru Dilshan - Software Engineer" width="100%" />
 </p>
 
 ## 🚀 About Me
