@@ -64,14 +64,14 @@ Currently exploring and building around:
 
 ## 🧩 Engineering Strengths
 
-| Area                | What I Focus On                                                                             |
-| ------------------- | ----------------------------------------------------------------------                      |
-| Backend Engineering | REST APIs, clean architecture, event-driven architecture, scalable services                 |
-| Cloud Engineering   | Azure, AWS, containerization, event-driven systems, CI/CD                                   |
-| System Design       | Reliability, maintainability, security, observability, performance                          |
-| Data Engineering    | SQL Server, PostgreSQL, large exports, batching, reporting workflows                        |
-| Frontend            | Vue, Angular, dashboards, interactive business tools                                        |
-| Collaboration       | Stakeholder communication, requirements refinement, delivery ownership                      |
+| Area                | What I Focus On                                                                                  |
+| ------------------- | ----------------------------------------------------------------------                           |
+| Backend Engineering | REST APIs, clean architecture, distributed systems, event-driven architecture, scalable services |
+| Cloud Engineering   | Azure, AWS, containerization, event-driven systems, CI/CD                                        |
+| System Design       | Reliability, maintainability, security, observability, performance                               |
+| Data Engineering    | SQL Server, PostgreSQL, large exports, batching, reporting workflows                             |
+| Frontend            | Vue, Angular, dashboards, interactive business tools                                             |
+| Collaboration       | Stakeholder communication, requirements refinement, delivery ownership                           |
 
 ---
 
